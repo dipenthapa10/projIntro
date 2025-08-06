@@ -2,6 +2,38 @@ body {
     background-color: white;
 }
 
-.navBar {
-    text-align: right;
+.introContainer {
+    display: flex;
+
+    justify-content: space-between;
+    padding-right: 50px;
+
+}
+
+.intro {
+    font: 80px Verdana, sans-serif;
+    margin: 100px 20px 5px 100px;
+    padding: 40px;
+}
+
+.subintro {
+    font: 15px sans-serif;
+    margin: 0px 150px;
+}
+
+.phrase {
+    font: 25px Georgia, serif;
+
+    margin: 25px 150px;
+    text-align: justify;
+    text-transform: uppercase;
+    color: rgb(255, 81, 0);
+
+
+
+}
+
+.dipenImage img {
+    height: auto;
+    max-width: 300px;
 }
