@@ -1,3 +1,4 @@
+/* section 1 */
 body {
     background-color: white;
 }
@@ -29,11 +30,57 @@ body {
     text-transform: uppercase;
     color: rgb(255, 81, 0);
 
-
-
 }
 
 .dipenImage img {
     height: auto;
     max-width: 300px;
+}
+
+/* This is section 2 page */
+
+.sectionTeal {
+    background-color: teal;
+    padding: 40px;
+    box-sizing: border-box;
+    display: block;
+    min-height: 700px;
+    margin-top: 200px;
+
+}
+
+.containerTeal {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    color: white;
+    gap: 400px;
+    max-width: 1400px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    /* makes it responsive */
+}
+
+.aboutImage img {
+    border-radius: 50px;
+    height: auto;
+}
+
+.aboutText {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 600px;
+}
+
+.highlight {
+    background-color: rgb(0, 162, 255);
+    font-size: 40px;
+    padding: 10px;
+
+}
+
+.about p {
+    font-size: 30px;
+    margin: 0;
 }
