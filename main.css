@@ -89,25 +89,54 @@ body {
 
 .sectionOrange {
     background-color: orange;
-    min-height: auto;
+    min-height: 700px;
 }
 
-.containerOrange {
-    display: block;
-    color: white;
-    align-items: center;
-}
+/* FOOTER */
 
-.heads {
-    display: inline-block;
+
+
+footer {
     background-color: black;
-    font-size: 40px;
-    font-family: 'Courier New', Courier, monospace;
-    margin: 60px 60px;
+    color: white;
+    text-align: center;
+    padding: 70px;
+
 }
 
-.p {
+
+.name {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 60px;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+}
+
+.name span {
+    margin-left: 10px;
+}
+
+.me {
+    font-size: 18px;
+    font-weight: 300px;
+    margin-bottom: 20px;
+}
+
+.email {
+    font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: aqua;
+    margin-bottom: 10px;
+}
+
+.location {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.links a {
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
 }
