@@ -86,10 +86,11 @@ body {
 }
 
 /* This is section 3 */
+/* my education  */
 
-.sectionOrange {
-    background-color: orange;
-    min-height: 700px;
+.section3 {
+    background-color: palegoldenrod;
+    box-sizing: border-box;
 }
 
 /* FOOTER */
